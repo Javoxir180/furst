@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section .section_vipper {
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+section .section_vipper .section_zip {
+   
+    width: 49.6%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+section .section_vipper .section_zip img {
+    width: 100%;
+    box-shadow: 0 0 10px rgb(66, 66, 66);
+}
+
+section .section_vipper .section_zip h2 {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+section .section_vipper .section_zip p {
+    font-size: 20px;
+}
+
+section .section_vipper .section_zip.section_right {
+    background-color: gainsboro;
+    padding: 60px;
+}
